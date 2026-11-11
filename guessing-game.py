@@ -6,7 +6,6 @@ print('----- COMPUTER CHOOSE THE NUMBER : ?? -----')
 print("----- NOW IT'S YOUR TURN -----")
 print('----- GOOD LUCK ----- ')
 print('----- ENTER EXIT OR exit TO EXIT THE GAME-----')
-guess = int(input('ENTER YOUR GUESS BETWEEN 1-100\n'))
 while number > 0:
     guess = input("ENTER YOUR GUESS BETWEEN 1-100: ")
     if guess.lower() == "exit":
